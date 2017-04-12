@@ -10,7 +10,7 @@ import { RecipeService } from "../recipe.service";
   selector: 'rb-recipe-detail',
   templateUrl: './recipe-detail.component.html'
 })
-export class RecipeDetailComponent implements OnInit, OnDestroy {\
+export class RecipeDetailComponent implements OnInit, OnDestroy {
 	private subscription: Subscription;
 	private recipeIndex: number;
     selectedRecipe: Recipe;
